@@ -1,4 +1,8 @@
-// REGEX PATTERNS
+
+function toggleTheme() {
+    document.body.classList.toggle("dark-mode");
+    
+}// REGEX PATTERNS
 let usernamePattern = /^[A-Za-z0-9_]{5,}$/;
 let emailPattern = /^[^\s@]+@[^\s@]+\.[^\s@]+$/;
 let passwordPattern = /^(?=.*[A-Z])(?=.*[a-z])(?=.*\d).{8,}$/;
