@@ -100,7 +100,7 @@ function displayProducts(products){
       </button>
 
       <button onclick="addToCart(${product.id})">
-        Add To Cart
+        AddTo Cart
       </button>
 
     </div>
