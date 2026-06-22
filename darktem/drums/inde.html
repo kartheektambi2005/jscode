@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Drum Kit</title>
+    <link rel="stylesheet" href="./stles.css">
+</head>
+<body>
+
+    <h1>🥁 Telugu Beats Drum Kit</h1>
+
+    <div id="display">Press a Key</div>
+
+    <div class="controls">
+        <label>Volume</label>
+        <input type="range" id="volume" min="0" max="1" step="0.1" value="1">
+    </div>
+
+    <div class="drum-container">
+        <button class="drum" data-key="A">A</button>
+        <button class="drum" data-key="S">S</button>
+        <button class="drum" data-key="D">D</button>
+        <button class="drum" data-key="F">F</button>
+        <button class="drum" data-key="G">G</button>
+        <button class="drum" data-key="H">H</button>
+        <button class="drum" data-key="J">J</button>
+        <button class="drum" data-key="K">K</button>
+        <button class="drum" data-key="L">L</button>
+    </div>
+
+    <button id="demoBtn">▶ Play Demo Beat</button>
+
+    <script src="./sound.js"></script>
+</body>
+</html>
